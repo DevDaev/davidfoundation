@@ -1,14 +1,14 @@
 var btn = document.getElementById('donate')
 var btn2 = document.getElementById('volunteer')
 var vol = document.getElementsByClassName('.vol')
-var putWords = document.getElementById('text')
+// var putWords = document.getElementById('text')
 
 vol.addEventListener('click', show)
 btn.addEventListener('click', load)
 
 function show() {
-  var text = "We have received your details, Thank you..."
-  putWords.innerText = text
+  alert("We have received your details, Thank you...")
+  // putWords.innerText = text
 }
 
 function load() {
