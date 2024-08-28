@@ -432,7 +432,7 @@ nav ul li a{
         margin-bottom: 10px;
      }
      .health, .skill, .legal, .mental{
-        height: 70vh;
+        height: auto;
         overflow: hidden;
         padding: 1.2rem;
         margin-bottom: 12px;
