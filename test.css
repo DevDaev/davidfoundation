@@ -3,12 +3,6 @@
     margin: 0;
     overflow-x: hidden;
 }
-:root{
-    background-color: #fff;
-    color: #000;
-    btn : #730071, #f2f7f2, #8e5572, 
-
-}
 .active{
     color: #730071;
 }
@@ -94,7 +88,7 @@ button:hover, button:active{
 
 .first-section{
     margin-top: .4rem;
-    height: 100vh;
+    height: 80vh;
     color: white;
     font-size: 2.3rem;
     padding: 1rem;
@@ -116,9 +110,8 @@ button:hover, button:active{
 
 /* second */
 .second-section{
-    height: 50vh;
+    height: 70vh;
     width: 100vw;
-    /* margin-top: .4rem; */
     background-color: white;
     display: flex;
     align-items: center;
@@ -128,12 +121,12 @@ button:hover, button:active{
     background-color: black;
     /* transition: all 1.3s ease-in-out; */
     color: white;
-    width: 50%;
     height: 90%;
     border-top-right-radius: 3rem;
     border-bottom-right-radius: 3rem;
     padding: 1.2rem;
     display: flex;
+    width: 50%;
     margin-right: 5px;
     align-items: center;
     justify-content: center;
@@ -376,3 +369,113 @@ input[type="radio"]{
     background-color: #f2f7f2;
     flex-direction: column;
 }
+
+@media screen and (max-width: 560px) {
+    /* Styles for screens up to 600px wide */
+    .donate{
+        display: none;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+nav ul li a{
+    font-size: .6rem;
+    margin-right: 6px;
+    margin-left: 7px;
+}
+    .first-section .b{
+        padding: auto;
+        max-width: 100%;
+    }
+    .first-section h1{
+        font-size: 2.3rem;
+        padding: 1rem;
+    }
+    .second-section{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+        flex-direction: column;
+        height: 60vh;
+        margin: 3px;
+    }
+     .vision, .mission{
+         width: 100vw;
+         margin-top: 10px;
+         height: auto;
+        
+     }
+     .vision h1, .mission h1{
+        font-size: 1.5rem;
+    }
+     .vision h4, .mission h4{
+        font-size: 1rem;
+    }
+    p{
+        line-height: normal;
+    }
+     .third-section{
+         font-size: 1rem;
+         height: 110vh;
+     }
+     .be{
+        margin-top: 10px;
+        height: 30vh;
+        padding: .8rem 1.4rem;
+     }
+     .be h1{
+        margin-bottom: 5px;
+     }
+     .third-section h2{
+        margin-bottom: 10px;
+     }
+     .health, .skill, .legal, .mental{
+        height: 70vh;
+        overflow: hidden;
+        padding: 1.2rem;
+        margin-bottom: 12px;
+    }
+     .third-section h1{
+        font-size: 1.5rem;
+    }
+    .third-section .box{
+        flex-direction: column;
+        /* height: 100%; */
+    }
+     .fourth-section{
+        height: 60vh;
+        font-size: 1rem;
+        padding: 1.3rem;
+     } 
+     .fifth-section{
+        height: 30vh;
+     }
+     .fifth-section p{
+        padding: 1.2rem;
+        margin-bottom: .6rem;
+    }
+    .nav{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 75%;
+    }
+    .footer{
+        padding: .3rem;
+    }
+.footer .nav ul li a{
+    font-size: .6rem;
+    margin-right: 6px;
+    margin-left: 7px;
+}
+.footer .address p{
+    font-size: .6rem;
+}
+.footer .smi p a{
+    font-size: .6rem;
+    width: 10%;
+}
+  }
+
