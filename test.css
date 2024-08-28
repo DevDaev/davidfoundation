@@ -200,7 +200,7 @@ p{
     margin-bottom: 20px;
 }
 .health, .skill, .legal, .mental{
-    height: 40vh;
+    height: auto;
     background-color: #8e5572;
     margin-left: .5rem;
     margin-right: .5rem;
